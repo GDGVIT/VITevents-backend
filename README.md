@@ -11,7 +11,7 @@
 
 ## Functionalities
 - [ ] Scrapes the emails for VIT Vellore Events.
-- [ ] Add the events to your calender.
+- [ ] Add the events to your google calender.
 <br>
 
 
