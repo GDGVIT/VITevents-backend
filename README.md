@@ -10,7 +10,8 @@
 
 
 ## Functionalities
-- [ ] bvnvhvhjhv
+- [ ] Scrapes the emails for VIT Vellore Events.
+- [ ] Add the events to your calender.
 <br>
 
 
