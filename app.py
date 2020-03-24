@@ -12,7 +12,7 @@ from io import BytesIO
 import os
 from PIL import Image
 from ImageEx import ImageExtractor
-from tableEx import tableEx
+from tableExtract import tableEx
 from utils import compare
 app = flask.Flask(__name__)
 app.config["DEBUG"] = False
@@ -23,7 +23,7 @@ def jsTableExtractor():
         content = request.get_data().decode('ASCII')
         if content is None:
             return(js.dumps({'status':'fail'}))
-        tableEx(content)
+        final = tableEx(content)
         return(js.dumps({'status':'success','events':final}))
     except:
         return(js.dumps({'status':'fail'}))
