@@ -6,7 +6,6 @@ import re
 import base64
 from random import random
 import numpy as np
-from cv2 import imwrite,imread
 from io import BytesIO
 import os
 from PIL import Image

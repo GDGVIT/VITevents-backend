@@ -89,3 +89,4 @@ def tableEx(content):
             final.append([event[i],time[i][0][0],date_col[i][0],venue[i]])
         except:
             pass
+    return final
